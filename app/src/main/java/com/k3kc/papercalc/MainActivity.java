@@ -22,7 +22,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static String TAG = "ZZZAAA";
+    public static String TAG = "TC";
 
     EditText mPeopleCount;
     LinearLayout mUsedPaper;
@@ -144,7 +144,6 @@ public class MainActivity extends AppCompatActivity {
             return;
         Log.d(MainActivity.TAG, totalPaperUsage + " " + paperLength);
         mPaperResult.setText(getString(R.string.paper_result, (paperLength * 100) / totalPaperUsage));
-
     }
 
     @Override
@@ -208,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                Log.d("ZZZAAA", "TEXT WAS CHANGED");
+
             }
         });
 
