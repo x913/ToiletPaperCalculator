@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Toilet Paper Calculator</string>
+    <string name="people_n">Человек %1$d</string>
+    <string name="paper_result">Бумаги хватит на %1$d дней</string>
+</resources>
